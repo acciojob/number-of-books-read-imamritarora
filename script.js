@@ -19,7 +19,7 @@ library.filter(numberOfBooksRead);
 const numberOfBooksRead = (element) => {
 
 
-  return element.readingStatus == true;
+  return element.readingStatus == "true";
 
 
 
