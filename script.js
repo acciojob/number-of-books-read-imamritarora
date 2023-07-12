@@ -15,11 +15,19 @@ const library = [
     readingStatus: false,
   },
 ];
-library.filter(numberOfBooksRead);
-const numberOfBooksRead = (element) => {
 
 
-  return element.readingStatus == true;
+const numberOfBooksRead = () => {
+  let count = 0
+  for (let i = 0; i < library.length; i++) {
+    ;
+    if (library[i].readingStatus == true) {
+      count++;
+    } 
+  }return count;
+
+
+
 
 
 
